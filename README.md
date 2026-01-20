@@ -1,4 +1,4 @@
-#EcoScan: Greenwashing Detector
+# EcoScan: Greenwashing Detector
 EcoScan is a mobile application designed to help consumers identify potential "greenwashing" on product labels. Using Tesseract OCR and a FastAPI backend, the app scans labels for vague sustainability buzzwords and provides an "Eco-Score" based on the transparency of the marketing.
 Features
 Live Camera Scan: Capture product labels directly through the app interface.
