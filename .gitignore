@@ -1,0 +1,8 @@
+node_modules/
+.expo/
+__pycache__/
+env/
+venv/
+*.png
+*.jpg
+.DS_Store
