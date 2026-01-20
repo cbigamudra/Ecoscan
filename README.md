@@ -1,4 +1,4 @@
-EcoScan: Greenwashing Detector
+#EcoScan: Greenwashing Detector
 EcoScan is a mobile application designed to help consumers identify potential "greenwashing" on product labels. Using Tesseract OCR and a FastAPI backend, the app scans labels for vague sustainability buzzwords and provides an "Eco-Score" based on the transparency of the marketing.
 Features
 Live Camera Scan: Capture product labels directly through the app interface.
@@ -23,7 +23,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8000
 cd ecoscan-mobile
 npm install
 
-# MAKE SURE YOUR BACKENND URL MATCHES YOUR IP ADDRESS
+MAKE SURE YOUR BACKENND URL MATCHES YOUR IP ADDRESS
 npx expo start
 
 For ease of use, use two terminal tabs and run you backend in one and mobile app in the other.
